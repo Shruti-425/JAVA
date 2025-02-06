@@ -8,7 +8,6 @@ public class shapes
         shapes shapes = new shapes();
         System.out.print("Choice: ");
         int choice = sc.nextInt();
-
         double area;
         switch (choice) 
         {
@@ -28,6 +27,8 @@ public class shapes
                 System.out.println("Square: " + area);
                 break;
 
+            
+
             case 3:
                 System.out.print("Circle radius: ");
                 double radius = sc.nextDouble();
@@ -36,6 +37,7 @@ public class shapes
                 break;
 
             case 4:
+
                 break;
 
             default:
@@ -44,6 +46,8 @@ public class shapes
         }
         sc.close();
     }
+
+    public double
 
     public double area(float length, float breadth) 
     {
@@ -54,6 +58,8 @@ public class shapes
     {
         return side * side;
     }
+
+
 
     public double areaCircle(double radius) 
     {
